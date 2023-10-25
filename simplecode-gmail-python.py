@@ -3,7 +3,7 @@ user='4a2mum8p@gmail.com'
 password='nwfaikxdrfeabhuj'
 destenation = '4a2mum8p1@gmail.com'
 
-def SenEmai(user, password, destenation, ):
+def SendEmai(user, password, destenation, ):
     try:
         server = smtplib.SMTP('smtp.gmail.com',587)
         print('Connection was successful!!!')
@@ -34,5 +34,5 @@ def SenEmai(user, password, destenation, ):
     print('mail sent')
     print('check the spam folder')
 
-SenEmai(user,password,destenation)
+SendEmai(user,password,destenation)
 
